@@ -111,7 +111,6 @@ a:active {
     list-style: none;
     display: flex;
     justify-content: end;
-    margin-right:15px;
 }
 
 .top-menu  .topleft-contact li,
