@@ -1,0 +1,690 @@
+/* =====================
+    Common CSS
+===================== */
+:root {
+
+    --font-open: 'Open Sans', sans-serif;
+}
+
+body,html {
+    color: #848484;
+    font-family:'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color:#2222;
+}
+
+h2 {
+    color: #222;
+    font-family:'Roboto', sans-serif;
+    font-size:40px ;
+    font-weight:700 ;
+    text-transform: capitalize;
+    margin: 0 0 30px;
+}
+
+p {
+    color: #848484;
+    font-family:'Open Sans', sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    padding: 10px 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color:#26cdff ;
+}
+
+.mainbtn {
+    display: inline-block;
+    color: #fff;
+    background-color:#26cdff ;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px ;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+    border:2px solid #26cdff;
+    padding: 0 26px;
+    transition: all .5s cubic-bezier(0.4, 0, 1, 1);
+}
+
+.mainbtn:hover {
+    color: #26cdff ;
+    background-color: #fff;
+    text-decoration: none;
+    outline: none;
+}
+
+.section-header {
+    text-align: center;
+    padding: 80px 0 80px 0;
+}
+
+.spacer {
+    margin: 80px 0;
+}
+
+/* =====================
+    Header Section
+===================== */
+
+/* Top Menubar */
+
+.top-menu {
+    background-color: #033d75;
+}
+
+.top-menu .topleft-contact {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    margin-left: -45px;
+}
+
+.top-menu .topright-contact {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin-right:35px;
+}
+
+.top-menu  .topleft-contact li,
+.top-menu  .topright-contact li {
+    padding: 10px 20px 0;
+}
+
+.top-menu  .topleft-contact li a,
+.top-menu  .topright-contact li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-menu  .topleft-contact li a i, 
+.top-menu  .topright-contact li a i {
+    margin-right: 10px;
+}
+
+ /* Navigation bar */
+
+.nav-bar {
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    align-content: center;
+}
+
+.nav-bar  h1 {
+    color: #26cdff;
+    font-weight: 900;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar ul li a {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #222222;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-bar ul li .active {
+    color: #26cdff;
+}
+
+/* Banner silder */
+
+.banner-slider {
+    background-image: url("/img/banner-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 200px 0;
+}
+
+.banner-slider h1 {
+    color: #222;
+    border-left: 5px solid #26cdff;
+    padding-left: 8px;
+}
+.banner-slider h2 {
+    color: #28687a;
+}
+
+/* =====================
+    About Section
+===================== */
+
+.about-section {
+    margin-top: 100px;
+}
+/* =====================
+    Min Features
+===================== */
+
+.min-features .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.min-features .row .col-md-3 {
+    background-color: #0d659b;
+
+}
+
+.feature-box {
+    background-color: #0d659b;
+    width: 30%;
+    margin: 1%;
+
+}
+
+.feature-box {
+    display: flex;
+    padding: 20px;
+}
+
+.feature-box img{
+    margin-right: 10px;
+}
+
+.feature-box h3 {
+    color: #fff;
+}
+
+
+/* =====================
+ Our Service Section
+===================== */
+
+.our-service {
+    background-color: #f8f8f8;
+    padding-bottom: 80px;
+}
+
+.our-service .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-box {
+    background-color: #0d659b;
+    width: 30%;
+    margin: 1%;
+
+}
+
+.our-service  .service-box{
+    text-align: center;
+    background-color: #fff;
+    margin: 10px;
+    padding: 40px 20px;
+    transition: all .3s ease;
+}
+
+.our-service  .service-box:hover{
+    box-shadow: 5px 2px 2px #eeeeee, -5px 2px 2px #eeeeee;
+}
+
+.our-service  .service-box h3 {
+    color: #222;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 25px 0 15px 0;
+}
+
+.our-service  .service-box p {
+    font-size: 14px;
+}
+
+/* =====================
+    Goal Section
+===================== */
+
+.our-goal p {
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.our-goal ul {
+    list-style: none;
+    display: block;
+    padding: 0 0 0 20px;
+    margin: 0;
+    margin-left: -20px;
+}
+
+.our-goal ul  li {
+    padding: 5px 0;
+}
+
+.our-goal ul  li i{
+    margin-right: 10px;
+    font-weight: 700;
+    color: #26cdff;
+}
+
+.double-btn {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.double-btn .btn1 {
+    width: 170px;
+    margin-right: 10px;
+}
+
+.double-btn .btn2 {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.our-goal .col-md-5 {
+    display: flex;
+    align-items: center;
+}
+
+/* =====================
+ Ask Question Section
+===================== */
+
+.ask-qsn {
+    background-image: url("/img/ask-bg.jpg");
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    
+}
+
+.ask-qsn .ask-box:first-child {
+    margin-bottom: 20px;
+}
+
+.ask-qsn .ask-box {
+    background-color: #033d75;
+    padding: 20px;
+    transition: all .3s ease;
+}
+
+.ask-qsn .ask-box:hover {
+    background-color: #26cdff;
+}
+
+.ask-qsn .ask-box .col-md-2 i {
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.ask-qsn .ask-box .col-md-2 i:hover {
+    border: 1px solid #033d75;
+}
+
+.ask-qsn .ask-box .col-md-1 i {
+    color: #fff;
+    font-size: 24px;
+
+}
+
+.ask-qsn .ask-box h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.ask-qsn .ask-box p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.ask-qsn .ask-box .col-md-2 {
+    display: flex;
+    align-items: center;
+}
+.ask-qsn .ask-box .col-md-9 {
+    align-items: center;
+}
+
+.ask-qsn .ask-box .col-md-1 {
+    display: flex;
+    align-items: center;
+}
+
+/* =====================
+    Features Section
+===================== */
+
+.main-features .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-features .feature-box{
+    width: 31%;
+    display: block;
+    text-align: center;
+    padding: 30px 22px;
+    background:#144e82;
+}
+
+.main-features .feature-box img {
+    width: 20%;
+}
+
+.main-features .feature-box h3{
+    font-size: 22px;
+    color: #26cdff;
+    margin: 20px 0;
+}
+
+.main-features .feature-box p {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/* =====================
+    Contact Section
+===================== */
+
+.contact-me {
+    background-image: url("/img/getquote-bg-img.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 680px;
+}
+
+.contact-me .col-md-6 img {
+    margin-top: -50px;
+}
+
+.contact-me .contact-form {
+    padding: 80px 0 0 0;
+}
+
+.contact-me .contact-form  p {
+    color: #000;
+    font-size: 14px;
+}
+
+.contact-me .contact-form form input {
+    height: 50px;
+    border-radius: 0;
+}
+
+.contact-me .contact-form form input::placeholder,
+.contact-me .contact-form form textarea::placeholder  {
+    font-size: 15px;
+}
+
+.contact-me .contact-form form textarea {
+    height: 130px;
+    border-radius: 0;
+}
+
+.contact-me .contact-form form button {
+    height: 45px;
+    background-color:#26cdff ;
+    border: 2px solid #26cdff;
+    border-radius: 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.contact-me .contact-form form button:hover {
+    background-color: transparent;
+    border: 2px solid #26cdff;
+    color: #26cdff;
+}
+
+/* =====================
+    Promotion Section
+===================== */
+
+.promotion .container {
+    background-color: #1c5083;
+}
+
+.promotion .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.promotion .row h1,
+.promotion .row p {
+    color: #fff;
+}
+
+.promotion .row .col-md-9 h1 {
+    border-left: 5px solid #26cdff;
+    padding-left: 5px;
+
+}
+
+.promotion .row .col-md-3 button {
+    background-color: #fff;
+    color: #26cdff;
+}
+
+/* =====================
+    Team Section
+===================== */
+
+.our-team {
+    margin-top: 120px;
+
+}
+
+.our-team p {
+    font-size: 14px;
+}
+
+.our-team .col-md-3 i {
+    color: #fff;
+    font-size: 16px;
+    background-color: #26cdff;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.our-team .row {
+    margin-top: 50px;
+}
+
+.our-team .col-md-3 h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+    text-align: center;
+    background-color: #26cdff;
+    padding: 30px;
+}
+
+/* =====================
+    Stat Section
+===================== */
+
+.stat-countup {
+    background-color: #084174;
+    padding: 80px 0;
+}
+
+.stat-countup .col-md-3 h1 {
+    font-size: 50px;
+    color: #26cdff;
+    text-align: center;
+}
+
+.stat-countup .col-md-3 h4 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/* =====================
+    Blog Section
+===================== */
+
+.my-blog {
+    margin-top: 120px;
+}
+
+.my-blog .row1 {
+    margin-bottom: 50px;
+}
+
+.my-blog p {
+    font-size: 14px;
+}
+
+.my-blog .col-md-3 i {
+    color: #fff;
+    font-size: 16px;
+    background-color: #26cdff;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.my-blog .row .card h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+.my-blog .row .card h4:hover {
+    color:#26cdff;
+    cursor: pointer;
+}
+
+.my-blog .row .card .card-body  .row .col-md-4{
+    text-align: center;
+}
+
+.my-blog .row .card .card-body  .row i{
+    font-size: 12px;
+}
+
+.my-blog .row .card .card-body  .row span{
+    font-size: 10px;
+}
+
+/* =====================
+    Footer Section
+===================== */
+
+footer {
+    background-color: #033d75;
+    padding: 80px 0 30px 0;
+    margin-top: 100px;
+}
+
+footer h1, 
+footer h3, 
+footer h5, 
+footer p {
+    color: #fff;
+}
+
+footer h1 {
+    font-weight: 900;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.footer-content .col-md-3 ul{
+    list-style: none;
+    display: block;
+}
+
+.footer-content .col-md-3 ul li i{
+    margin-right: 10px;
+}
+
+.footer-content .col-md-3 ul li i,
+.footer-content .col-md-3 ul li span {
+    color: #fff;
+}
+
+.footer-content .col-md-3 ul li i:hover,
+.footer-content .col-md-3 ul li span:hover {
+    color: #26cdff;
+}
+
+.footer-content .col-md-3 .link {
+    margin-left:40px ;
+}
+
+.footer-contact {
+    margin-left: -50px;
+}
+
+.footer-content .col-md-3 h5 {
+    font-size: 14px;
+}
+
+.footer-content .date {
+    color: #26cdff;
+    margin-top: -10px;
+}
+
+.footer-content .footer-news {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content .social-icon  {
+    margin-top: 15px;
+    margin-left: -40px;
+}
+
+.footer-content .social-icon a {
+    padding: 0 10px ;
+}
+
+.footer-content .social-icon a i {
+    color: #fff;
+}
+
+.copyright-content {
+    text-align: center;
+    padding-top:20px;
+}
